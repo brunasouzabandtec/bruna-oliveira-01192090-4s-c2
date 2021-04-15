@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_erro">It went bad ... No dogs found with ids %1$sd and $2%s</string>
+    <string name="btn_comprar">Buy dog</string>
+    <string name="amigavel">Child friendly</string>
+    <string name="primeiro_id">First Id</string>
+    <string name="segundo_id">Second Id</string>
+    <string name="cachorro_1">Dog 1:</string>
+    <string name="cachorro_2">Dog 2:</string>
+    <string name="preco_total">Total purchase price:</string>
+</resources>

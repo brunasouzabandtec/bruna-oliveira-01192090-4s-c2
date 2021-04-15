@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Avaliação Continuada</string>
+    <string name="msg_erro">Deu ruim... Nenhum cachorro encontrado com os ids %1$s e $2%s</string>
+    <string name="btn_comprar">Comprar cachorro</string>
+    <string name="amigavel">Amigável para crianças</string>
+    <string name="primeiro_id">Primeiro Id</string>
+    <string name="segundo_id">Segundo Id</string>
+    <string name="cachorro_1">Cachorro 1:</string>
+    <string name="cachorro_2">Cachorro 2:</string>
+    <string name="preco_total">Preço total da compra:</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CachorroEncontrado">
+
+    <TextView
+        android:id="@+id/tv_primeiro_dog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cachorro 1:"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_segundo_dog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Cachorro 2:"
+        app:layout_constraintTop_toBottomOf="@+id/tv_primeiro_dog"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_preco_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço total da compra:"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_segundo_dog"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/segundo_dog"
+        android:layout_width="415dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_segundo_dog"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/dog_feliz"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
